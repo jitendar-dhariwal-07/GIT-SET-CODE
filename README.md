@@ -1,79 +1,66 @@
-# GIT-SET-CODE
-Broken-Code Challenge
-Welcome to the Broken-Code Challenge!
+# Broken-Code Challenge: Move Zeroes
 
-This repository contains a small project with intentionally introduced bugs and incomplete logic. Your task is to understand the existing code, identify the problems, fix them, and verify your solution using the provided test cases.
+This repository contains a broken implementation of LeetCode Problem 283: Move Zeroes.
 
-This challenge is designed to improve your skills in:
+## Problem
 
---Reading and understanding an existing codebase.
+Given an integer array `nums`, move all zeroes to the end of the array while maintaining the relative order of the non-zero elements.
 
---Finding logical and edge-case errors.
+The operation must modify the original array in-place.
 
---Debugging incomplete or incorrect functions.
+## Examples
 
---Writing reliable fixes without breaking existing features.
+```text
+Input:[0][1][3][12]
+Output:[0][1][3][12]
+```
 
---Running automated tests.
+```text
+Input:  
+Output: 
+```
 
---Using the GitHub fork-and-push workflow.
+```text
+Input:[1][2][3]
+Output:[2][3][1]
+```
 
-Your Task
-Follow these steps:
+## Your Task
 
-1.Fork this repository to your GitHub account.
+The implementation in `src/move_zeroes.py` contains intentional bugs.
 
-2.Clone your fork to your local computer.
+You must:
 
-3.Read the README.md file carefully.
+1. Fork this repository.
+2. Clone your fork locally.
+3. Read the source code and test cases.
+4. Identify and fix the bugs.
+5. Run all tests.
+6. Commit your changes.
+7. Push your solution to your fork.
 
-4.Inspect the source code and test cases.
+## Running the Tests
 
-5.Identify the intentional bugs.
+From the project directory, run:
 
-6.Fix the code without removing the existing tests.
+```bash
+pytest
+```
 
-7.Run the test suite and verify that the tests pass.
+## Rules
 
-8.Commit your changes with a meaningful commit message.
+- Modify only the source code.
+- Do not delete or modify the tests.
+- Do not create a new solution file.
+- Modify the input list in-place.
+- Do not use an additional array to store the result.
+- Do not hardcode the expected outputs.
 
-9.Push your solution to your fork.
+## Submission Checklist
 
-Possible Issues
-The repository may contain problems such as:
-
---Incorrect conditions.
-
---Off-by-one errors.
-
---Missing input validation.
-
---Wrong variables.
-
---Incorrect function calls.
-
---Incorrect return values.
-
---Incomplete functions.
-
---Case-sensitivity problems.
-
---Edge-case failures.
-
-The bugs are designed to be understandable through code inspection and testing. You are not expected to modify the project structure or rewrite the entire application.
-
-PROBLEM DESCRIPTION:
-leetcode problem number:[283:Move zero]
-
-Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
-
-Note that you must do this in-place without making a copy of the array.
-
- Example 1:
-
-Input: nums = [0,1,0,3,12]
-Output: [1,3,12,0,0]
-Example 2:
-
-Input: nums = [0]
-Output: [0]
+- [ ] Repository forked.
+- [ ] Repository cloned.
+- [ ] Bugs fixed.
+- [ ] All tests passed.
+- [ ] Changes committed.
+- [ ] Changes pushed to GitHub.
