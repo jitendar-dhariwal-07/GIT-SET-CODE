@@ -10,6 +10,7 @@ def fizz_buzz(n):
     """
 
     result = []
+    n=INT(input(enter your number:))
 
     for number in range(0, n):
         if number % 3 == 0:
