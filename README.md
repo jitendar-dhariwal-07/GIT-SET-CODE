@@ -41,13 +41,7 @@ You must:
 6. Commit your changes.
 7. Push your solution to your fork.
 
-## Running the Tests
 
-From the project directory, run:
-
-```bash
-pytest
-```
 
 ## Rules
 
@@ -76,7 +70,6 @@ pytest
 git clone [https://github.com/](https://github.com/)<your-username>/broken-code-challenge.git
 cd broken-code-challenge
 
-pytest
 
 git add src/fizz_buzz.py
 git commit -m "Fix Fizz Buzz implementation"
